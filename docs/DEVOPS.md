@@ -198,16 +198,16 @@ pm2 startup
 #### Development
 ```env
 NODE_ENV=development
-MONGODB_URI=mongodb://localhost:27017/course_compass
+MONGODB_URI= hse your uri
 REDIS_URL=redis://localhost:6379
 ```
 
 #### Production
 ```env
 NODE_ENV=production
-MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/course_compass
+MONGODB_URI= use your uri here
 REDIS_URL=redis://user:pass@redis-server:6379
-JWT_SECRET=super-secret-production-key
+JWT_SECRET= create a super-secret-production-key
 ```
 
 ### Secrets Management
